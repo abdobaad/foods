@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .main {
@@ -101,4 +100,32 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.table_container {
+  max-height: 470px;
+  max-width: 90vw;
+  overflow-y: scroll;
+}
+.navbar {
+  background-color: #424242;
+  border-radius: 5px 5px 0 0;
+  box-shadow: none !important;
+  padding: 5px;
+}
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.toolbar_left {
+  display: flex;
+  align-items: center;
+}
+.burger_icon {
+  margin-right: 3rem;
+}
+
+.clicked_row {
+  cursor: pointer;
 }
