@@ -6,11 +6,11 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import styles from '@/styles/Home.module.css'
+import { NavBarTypes } from '../types';
 
-const NavBar = ({Compare,items,showDiff}) => {
-      const CompareFood = () => {
-        Compare()
-      }
+const NavBar: React.FC<NavBarTypes> = ({Compare,items,showDiff}) => {
+    const CompareFood = () => Compare();
+   
     return (
         <AppBar className={styles.navbar} color="inherit" position="static">
         <Toolbar className={styles.toolbar}>

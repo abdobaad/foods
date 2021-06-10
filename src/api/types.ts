@@ -28,3 +28,4 @@ export interface ProductPropertyEntryDTO {
   name: keyof Product
   label: string
 }
+
